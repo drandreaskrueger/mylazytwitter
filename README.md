@@ -23,3 +23,7 @@ ipython kernel install --user --name="Python.3.mylazytwitter"
 * who **retweeted** me recently
 * who are not yet following me
 * who are not in my "not interested" blacklist
+
+    python retweets_examine.py | tee -a "../logs/$(date +%Y%m%d-%H%M)_retweets_examine.log"
+
+
