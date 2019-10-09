@@ -2,6 +2,9 @@
 .project
 .pydevproject
 
+/data/
+/logs/
+
 src/twitter_credentials.txt
 src/not-want-to-follow.txt
 
@@ -112,5 +115,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-/data/
-/logs/
+
